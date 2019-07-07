@@ -1,0 +1,78 @@
+*{
+	text-decoration: none;
+}
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.navbar{
+	height: 20vh;
+	width: 100vw;
+	background-color:rgb(161, 157, 170);
+	z-index: 2;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ .logo{
+		border-radius:30px;
+		padding: 10px;
+		height: 130px;
+		width:30vw;
+}
+.logo i{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 60px;
+	margin-top: 20px;
+}
+.links{
+	width: 70vw;
+}
+.links ul{
+		list-style: none;
+		display: flex;		
+		justify-content: space-around;
+}
+.links ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+main{
+		width: 100vw;
+		height: 80vh;
+		background-image:url("/HTML/New-project/Web-galary/img/background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+		margin-top:-20px; 
+}
+main h1{
+	padding-top:200px;
+	color: #0D1A1A;
+	font-family: 'Oxygen', sans-serif;
+}
+ h2{
+	padding-left: 20px;
+	color:black;
+	font-family: cursive;
+}
+.img-responsive{
+    margin:10px; padding:10px;
+    border: 2px solid rgb(104, 245, 245); 
+}
+.img-responsive img{
+	position: relative;
+	height: 400px;
+	width: 100%;
+}
+
+.jumbotron{
+	text-align: center;
+}
